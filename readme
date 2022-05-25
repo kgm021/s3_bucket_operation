@@ -1,0 +1,12 @@
+Hi All,
+
+We are using AWS Transfer Family and we need to write a code using Python in AWS Lambda using boto3. Below are the requirements:-
+
+1. Ability to transfer files to folders under different bucket for a single user.
+2. Ability to transfer files to folders under same bucket for a single user.
+
+Example :- Weekly report when pushed then it needs to transfer to weekly folder and when monthly report pushed then it needs to be transfer to monthly folder.
+
+The file needs to be transferred to S3 bucket with respective username and then the files needs to be moved according to the report.
+
+Please let me know if any more details are required.
